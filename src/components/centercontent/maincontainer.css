@@ -1,0 +1,270 @@
+/* .apexcharts-toolbar,
+.apexcharts-xaxis,
+.apexcharts-yaxis,
+.apexcharts-xaxis-tick,
+.apexcharts-gridline {
+    display: none !important;
+} */
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url("../../fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url("../../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("../../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("../../fonts/Roboto-Thin.ttf");
+}
+
+.apexcharts-toolbar {
+    display: none !important;
+}
+
+.apexcharts-gridline {
+    color: #000 !important;
+}
+
+#apexchartsarea-datetime {
+    margin-top: -15px !important;
+}
+
+.apex_2 .apexcharts-yaxis,
+.apexcharts-xaxis-tick,
+.apexcharts-gridline {
+    display: none !important;
+}
+
+input[type="text"],
+.search-icon {
+    height: 18px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    color: #525151;
+    margin-right: 10px;
+    border-radius: 8px;
+    background: #dce9ff;
+}
+
+.anal-cont-top .anal-graph-choose,
+.anal-graph-filter {
+    border-radius: 16px;
+    padding: 2px;
+    color: #fff;
+    outline: none;
+    background: #202027;
+}
+
+.anal-graph-filter {
+    background: #ffffff;
+    color: #000;
+    border: none;
+    box-shadow: #00000040 0px 1px 7px;
+}
+
+.main-container {
+    width: 750px;
+    height: 637px;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: -20px;
+    background-color: #FAFAFA;
+    border-left: 1px solid #d3d3d3d3;
+    border-right: 1px solid #d3d3d3d3;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.fa-sharp {
+    color: #525151;
+}
+
+.main-content-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.analytics-content {
+    width: 440px;
+    height: 200px;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: #63636309 0px 2px 8px 0px;
+    background-color: #FFFFFF;
+}
+
+.anal-cont-top {
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+h4 {
+    margin: 16px 10px;
+}
+
+.reminder-content {
+    width: 180px;
+    height: 200px;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: #63636309 0px 2px 8px 0px;
+    background-color: #0560FD;
+}
+
+.reminder-content p {
+    color: #fff;
+    margin-top: 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.reminder-cont p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.figma-icon {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    display: flex;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.figma-icon-img {
+    width: 28px;
+    height: 28px;
+}
+
+.reminder-btn {
+    color: #525151;
+    padding: 12px 34px;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: 0.2s ease-in-out;
+}
+
+.reminder-btn:hover {
+    background: #dce9ff;
+    color: #0560FD;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+}
+
+.trans-cont {
+    width: 310px;
+    position: relative;
+}
+
+.trans-card {
+    width: 314px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    justify-content: space-around;
+}
+
+.trans-card:hover {
+    background-color: #e6edf8;
+}
+
+.trans-card-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.trans-card01 {
+    font-size: 17px;
+    color: #2a2a2a;
+    font-weight: 600;
+}
+
+.trans-card02 {
+    font-size: 13px;
+    color: #727272;
+    padding-top: 4px;
+    display: inline-block;
+}
+
+.trans-card03 {
+    font-size: 19px;
+    color: #2a2a2a;
+    font-weight: 700;
+}
+
+.audience-cont {
+    width: 310px;
+    position: relative;
+    text-align: center;
+}
+
+.audience-count-cont {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.audience-counter,
+.audience-counter-1 {
+    font-size: 40px;
+    font-family: Roboto-Black;
+    font-weight: bold;
+    margin: 0 5px;
+    margin-left: 16px;
+}
+
+
+.fa-caret-up {
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.aude-filter {
+    position: absolute;
+    top: 20px;
+    right: 12px;
+}
+
+.analytics-content:hover,
+.reminder-content:hover,
+.earning-content:hover {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+            rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}

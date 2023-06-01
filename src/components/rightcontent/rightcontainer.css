@@ -1,0 +1,139 @@
+body {
+    background-color: #F4F4F4;
+    font-family: Roboto-Regular;
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url("../../fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url("../../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("../../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("../../fonts/Roboto-Thin.ttf");
+}
+
+.apexcharts-tooltip-title {
+    display: none;
+}
+
+.right-container {
+    width: 340px;
+    height: 637px;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    background-color: #FAFAFA;
+}
+
+.right-main-header {
+    display: flex;
+    margin-right: 5px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-main-header-icons {
+    width: 112px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-main-header-icons i {
+    font-size: 20px;
+    cursor: pointer;
+    color: #4f6b9b;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.earn-content {
+    width: 185px;
+    font-size: 13px;
+    color: #7d7e80;
+    margin-left: 45px;
+}
+
+.earning-content {
+    width: 270px;
+    height: 260px;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: #63636309 0px 2px 8px 0px;
+    background-color: #FFFFFF;
+}
+
+.trans-content {
+    width: 185px;
+    font-size: 15px;
+    color: #7d7e80;
+}
+
+.trans-cont-amount {
+    font-size: 39px;
+    font-weight: bold;
+    margin: 11px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trans-btn {
+    width: 105px;
+    height: 35px;
+    background: #1400fe;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.trans-btn:active {
+    background: #d5d2f5;
+}
+
+.trans-avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.trans-avatar-img {
+    width: 40px;
+    height: 40px;
+    margin-left: -10px;
+    border-radius: 50%;
+}
+
+.trans-add-avatar {
+    font-size: 28px;
+    margin-left: -11px;
+    color: #5e50ff;
+    cursor: pointer;
+}
+
+.trans-avatar-img:hover{
+    transform: translateY(-3px);
+}
+
+.trans-add-avatar:hover {
+    color: #2e21c5;
+}
